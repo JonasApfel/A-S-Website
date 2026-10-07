@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A&amp;S Webwerk</title>
+<meta name="description" content="A&amp;S Webwerk aus Deggendorf baut Websites für Handwerk und Mittelstand in Niederbayern. Von Hand programmiert, schnell und mit echten Bildern aus Ihrem Betrieb.">
+<meta name="theme-color" content="#121110">
+<meta property="og:title" content="A&amp;S Webwerk · Websites mit Fundament">
+<meta property="og:description" content="Websites für Handwerk und Mittelstand in Niederbayern. Aus Deggendorf.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+
+<header class="header">
+  <div class="wrap">
+    <a class="wordmark" href="#top" data-scroll aria-label="A&amp;S Webwerk, zum Seitenanfang">A<span class="amp">&amp;</span>S Webwerk</a>
+    <div class="header-right">
+      <a class="btn btn--small magnetic" href="#kontakt" data-scroll>Projekt anfragen <span class="arrow" aria-hidden="true">→</span></a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" id="menu-btn">
+        <span class="menu-btn-text">Menü</span>
+        <span class="bars" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav aria-label="Hauptmenü">
+    <a href="#leistungen" data-scroll><span class="label">01</span>Leistungen</a>
+    <a href="#ablauf" data-scroll><span class="label">02</span>Bauablauf</a>
+    <a href="#ueber-uns" data-scroll><span class="label">03</span>Über uns</a>
+    <a href="#fragen" data-scroll><span class="label">04</span>Fragen</a>
+    <a href="#kontakt" data-scroll><span class="label">05</span>Kontakt</a>
+  </nav>
+  <div class="menu-foot">
+    <p class="label">A&amp;S Webwerk · Deggendorf</p>
+    <p class="label">Websites für Handwerk und Mittelstand</p>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-canvas" id="hero-canvas" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="label" data-hero-fade>Webdesign aus Niederbayern · Seit 2026</p>
+      <h1 id="hero-title" data-hero-title>
+        <span class="line">Websites</span>
+        <span class="line">mit <em>Fundament.</em></span>
+      </h1>
+      <div class="hero-bottom" data-hero-fade>
+        <p class="hero-lead">Wir bauen Websites für Handwerksbetriebe und Mittelständler, die online noch kaum zu finden sind. Von Hand programmiert, schnell auf jedem Handy, mit echten Bildern aus Ihrem Betrieb.</p>
+        <div class="hero-actions">
+          <a class="btn magnetic" href="#kontakt" data-scroll>Erstgespräch vereinbaren <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-meta">
+          <span class="label">48°50′ N · 12°58′ O</span>
+          <span class="label scroll-cue"><i></i>Scrollen</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Manifest ===== -->
+  <section class="section manifest" aria-label="Unser Anspruch">
+    <div class="wrap">
+      <p class="label eyebrow">Unser Anspruch</p>
+      <p data-manifest>Niederbayerns Betriebe leisten jeden Tag Arbeit auf höchstem Niveau. Online sieht man davon fast nichts. Wir ändern das mit Websites, die so <em>sorgfältig</em> gebaut sind wie eine gute Mauer.</p>
+      <div class="manifest-foot">
+        <span class="label">Kein Baukasten</span>
+        <span class="label">Keine Vorlagen</span>
+        <span class="label">Jede Zeile von Hand</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Laufband ===== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="marquee-group">
+        <span>Handwerk</span><span class="dot"></span><span class="serif">Mittelstand</span><span class="dot"></span><span>Bau</span><span class="dot"></span><span class="serif">Niederbayern</span><span class="dot"></span><span>Deggendorf</span><span class="dot"></span>
+      </div>
+      <div class="marquee-group">
+        <span>Handwerk</span><span class="dot"></span><span class="serif">Mittelstand</span><span class="dot"></span><span>Bau</span><span class="dot"></span><span class="serif">Niederbayern</span><span class="dot"></span><span>Deggendorf</span><span class="dot"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Leistungen ===== -->
+  <section class="section is-light" id="leistungen" aria-labelledby="leistungen-title">
+    <div class="wrap">
+      <div class="lv-head">
+        <div>
+          <p class="label eyebrow">Leistungsverzeichnis</p>
+          <h2 class="h2" id="leistungen-title" data-reveal>Was wir für Sie <em>bauen</em></h2>
+        </div>
+        <p data-fade>Jede Position bekommen Sie einzeln oder als Paket. Vor dem Start steht ein fester Preis, damit Sie wissen, woran Sie sind.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card" style="--i:0">
+          <div class="card-pos"><span>Pos. 01.010</span><span>psch</span></div>
+          <h3>Website-<br>Neubau</h3>
+          <div class="card-body">
+            <p>Onepager oder mehrere Seiten, gebaut für Handy und Computer. Jede Zeile von Hand programmiert, ohne Baukasten und ohne Plugin-Sammlung, die ständig Updates braucht.</p>
+            <ul class="card-tags"><li>Design</li><li>Programmierung</li><li>Texte</li></ul>
+          </div>
+        </article>
+        <article class="card" style="--i:1">
+          <div class="card-pos"><span>Pos. 01.020</span><span>psch</span></div>
+          <h3>Karriere&shy;seite</h3>
+          <div class="card-body">
+            <p>Eine Seite, die zeigt, wie es bei Ihnen im Betrieb wirklich aussieht. Mit einer Bewerbung, die auch vom Handy in zwei Minuten abgeschickt ist.</p>
+            <ul class="card-tags"><li>Azubis</li><li>Fachkräfte</li><li>Kurzbewerbung</li></ul>
+          </div>
+        </article>
+        <article class="card" style="--i:2">
+          <div class="card-pos"><span>Pos. 01.030</span><span>psch</span></div>
+          <h3>Google-<br>Profil</h3>
+          <div class="card-body">
+            <p>Wir richten Ihr Unternehmensprofil ein oder bringen es auf Stand: Öffnungszeiten, Leistungen, Fotos und der Link zur Website. Dort suchen Ihre Kunden zuerst.</p>
+            <ul class="card-tags"><li>Google Maps</li><li>Bewertungen</li><li>Fotos</li></ul>
+          </div>
+        </article>
+        <article class="card" style="--i:3">
+          <div class="card-pos"><span>Pos. 01.040</span><span>Termin</span></div>
+          <h3>Fotos &amp; Video <em>vor Ort</em></h3>
+          <div class="card-body">
+            <p>Wir kommen auf die Baustelle, in die Werkstatt oder in den Laden. Echte Bilder von Ihren Leuten und Ihrer Arbeit statt austauschbarer Stockfotos.</p>
+            <ul class="card-tags"><li>360°-Aufnahmen</li><li>Zeitraffer</li><li>Porträts</li></ul>
+          </div>
+        </article>
+        <article class="card" style="--i:4">
+          <div class="card-pos"><span>Pos. 01.050</span><span>mtl.</span></div>
+          <h3>Hosting &amp; Pflege</h3>
+          <div class="card-body">
+            <p>Wir kümmern uns um Domain, Hosting und Sicherheit. Neue Öffnungszeiten oder ein neues Projektfoto schicken Sie uns einfach, wir tragen es ein.</p>
+            <ul class="card-tags"><li>Domain</li><li>Updates</li><li>Änderungen</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Bauablauf ===== -->
+  <section class="section ablauf" id="ablauf" aria-labelledby="ablauf-title">
+    <div class="wrap ablauf-head">
+      <div>
+        <p class="label eyebrow">Bauablauf</p>
+        <h2 class="h2" id="ablauf-title" data-reveal>Vom Ortstermin zur <em>Übergabe</em></h2>
+      </div>
+      <div class="progress" aria-hidden="true">
+        <span class="label">Baufortschritt</span>
+        <span class="progress-bar"><i></i></span>
+        <span class="num">0 %</span>
+      </div>
+    </div>
+    <div class="track">
+      <article class="panel">
+        <span class="panel-num">01</span>
+        <div>
+          <p class="label">BA 1</p>
+          <h3>Ortstermin</h3>
+          <p>Wir kommen bei Ihnen vorbei, schauen uns den Betrieb an und klären, was die Website leisten soll: mehr Anfragen, mehr Bewerbungen oder beides.</p>
+        </div>
+      </article>
+      <article class="panel">
+        <span class="panel-num">02</span>
+        <div>
+          <p class="label">BA 2</p>
+          <h3>Bauplan</h3>
+          <p>Sie bekommen einen Entwurf und einen Festpreis. Erst wenn beides passt, geht es los.</p>
+        </div>
+      </article>
+      <article class="panel">
+        <span class="panel-num">03</span>
+        <div>
+          <p class="label">BA 3</p>
+          <h3>Rohbau &amp; Ausbau</h3>
+          <p>Wir programmieren, fotografieren und schreiben die Texte. Über einen Vorschau-Link verfolgen Sie jeden Schritt auf Ihrem Handy.</p>
+        </div>
+      </article>
+      <article class="panel">
+        <span class="panel-num">04</span>
+        <div>
+          <p class="label">BA 4</p>
+          <h3>Abnahme &amp; Übergabe</h3>
+          <p>Sie geben frei, die Seite geht online. Domain und alle Zugänge laufen auf Ihren Namen.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Versprechen ===== -->
+  <section class="section is-light" aria-labelledby="facts-title">
+    <div class="wrap">
+      <p class="label eyebrow">Unser Versprechen</p>
+      <h2 class="h2" id="facts-title" data-reveal style="margin-bottom: clamp(48px, 6vw, 88px)">Solide <em>gebaut</em></h2>
+      <div class="facts">
+        <div class="fact" data-fade>
+          <span class="big" data-count="0">0</span>
+          <h3>Baukästen</h3>
+          <p>Ihre Seite wird von Hand programmiert. Kein Wix, kein Plugin-Wildwuchs.</p>
+        </div>
+        <div class="fact" data-fade>
+          <span class="big" data-count="0">0</span>
+          <h3>Tracking-Cookies</h3>
+          <p>Keine Datensammelei, kein Cookie-Banner, das Ihre Besucher vergrault.</p>
+        </div>
+        <div class="fact" data-fade>
+          <span class="big"><span data-count="100">100</span><small>%</small></span>
+          <h3>Ihr Eigentum</h3>
+          <p>Domain und Nutzungsrechte gehören Ihnen. Sie sind nie an uns gebunden.</p>
+        </div>
+        <div class="fact" data-fade>
+          <span class="big" data-count="1">1</span>
+          <h3>Ansprechpartner</h3>
+          <p>Vom Ortstermin bis zur Pflege reden Sie mit denselben Leuten.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Über uns ===== -->
+  <section class="section" id="ueber-uns" aria-labelledby="team-title">
+    <div class="wrap">
+      <p class="label eyebrow">Über uns</p>
+      <h2 class="h2" id="team-title" data-reveal>Zwei aus der Region, <em>einer vom Bau</em></h2>
+      <div class="team">
+        <article class="person">
+          <div class="photo" data-parallax>
+            <div class="photo-inner"><span class="mono-initials">JA</span></div>
+            <span class="label todo">Foto: Jonas auf der Baustelle</span>
+          </div>
+          <p class="label role">Planung &amp; Kundenkontakt</p>
+          <h3>Jonas Apfel</h3>
+          <p>Macht seine Ausbildung zum Maurer und studiert Bauingenieurwesen an der TH Deggendorf. Kennt die Baustelle von innen und weiß, was ein Betrieb von seiner Website braucht: Anrufe, Anfragen und Bewerbungen.</p>
+        </article>
+        <article class="person">
+          <div class="photo" data-parallax>
+            <div class="photo-inner"><span class="mono-initials">MS</span></div>
+            <span class="label todo">Foto: Michael bei der Arbeit</span>
+          </div>
+          <p class="label role"><span class="todo">Rolle von Michael</span></p>
+          <h3>Michael Stoiber</h3>
+          <p><span class="todo">Zwei, drei Sätze zu Michael: Was macht er, was kann er besonders gut, was bringt er ins Webwerk ein?</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Gründungsangebot ===== -->
+  <section class="section offer" id="referenzen" aria-labelledby="offer-title">
+    <div class="wrap">
+      <div>
+        <p class="label eyebrow">Referenzen</p>
+        <h2 class="h2" id="offer-title" data-reveal>Drei Betriebe, <em>drei</em> Referenzen.</h2>
+      </div>
+      <div class="offer-side" data-fade>
+        <p>Unsere ersten Projekte entstehen gerade. Wir suchen drei Betriebe aus der Region, deren Website wir als Referenz bauen dürfen. Dafür gibt es Gründungskonditionen und besonders viel Einsatz.</p>
+        <a class="btn magnetic" href="#kontakt" data-scroll>Platz anfragen <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section is-light" id="fragen" aria-labelledby="faq-title">
+    <div class="wrap faq-grid">
+      <div>
+        <p class="label eyebrow">Häufige Fragen</p>
+        <h2 class="h2" id="faq-title" data-reveal>Gut <em>zu wissen</em></h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Was kostet eine Website? <span class="plus" aria-hidden="true"></span></summary>
+          <div class="answer"><p>Das hängt vom Umfang ab. Nach dem Ortstermin bekommen Sie einen Festpreis für Ihr Vorhaben. Hosting und Pflege laufen danach über eine kleine Monatspauschale, die Sie jederzeit kündigen können.</p></div>
+        </details>
+        <details>
+          <summary>Kann ich Inhalte selbst ändern? <span class="plus" aria-hidden="true"></span></summary>
+          <div class="answer"><p>Ja, auf Wunsch bauen wir ein einfaches Redaktionssystem ein, mit dem Sie Texte und Bilder selbst austauschen. Wer dafür keine Zeit hat, schickt uns eine Nachricht und wir erledigen das.</p></div>
+        </details>
+        <details>
+          <summary>Wem gehört die Website am Ende? <span class="plus" aria-hidden="true"></span></summary>
+          <div class="answer"><p>Ihnen. Die Domain läuft auf Ihren Namen, und nach vollständiger Bezahlung bekommen Sie alle Nutzungsrechte an der Website.</p></div>
+        </details>
+        <details>
+          <summary>Brauche ich einen Cookie-Banner? <span class="plus" aria-hidden="true"></span></summary>
+          <div class="answer"><p>Ein Banner ist vor allem dann nötig, wenn eine Seite Besucher verfolgt oder Dienste von Drittanbietern lädt. Wir bauen so, dass das möglichst nicht nötig ist. Diese Seite kommt zum Beispiel ganz ohne aus.</p></div>
+        </details>
+        <details>
+          <summary>Wie lange dauert es, bis die Seite online ist? <span class="plus" aria-hidden="true"></span></summary>
+          <div class="answer"><p>Meist wenige Wochen. Am schnellsten geht es, wenn Fotos, Texte und Ansprechpartner bei Ihnen früh feststehen. Den Zeitplan legen wir beim Ortstermin gemeinsam fest.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Kontakt ===== -->
+  <section class="section" id="kontakt" aria-labelledby="kontakt-title">
+    <div class="wrap">
+      <p class="label eyebrow">Kontakt</p>
+      <h2 class="contact-title" id="kontakt-title" data-reveal>Lassen Sie uns <em>bauen.</em></h2>
+      <div class="contact-grid">
+        <div class="contact-info" data-fade>
+          <div><p class="label">Telefon</p><p class="big"><span class="todo">0991 / …</span></p></div>
+          <div><p class="label">E-Mail</p><p class="big"><span class="todo">info@…</span></p></div>
+          <div><p class="label">Einsatzgebiet</p><p>Deggendorf und ganz Niederbayern. Für den Ortstermin kommen wir zu Ihnen.</p></div>
+        </div>
+        <form class="form" name="anfrage" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="anfrage-form" data-fade>
+          <input type="hidden" name="form-name" value="anfrage">
+          <p class="hp"><label>Nicht ausfüllen: <input name="bot-field" id="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <div class="row">
+            <div class="field"><label for="f-name">Ihr Name</label><input id="f-name" name="name" autocomplete="name" required placeholder="Max Mustermann"></div>
+            <div class="field"><label for="f-betrieb">Betrieb</label><input id="f-betrieb" name="betrieb" autocomplete="organization" placeholder="Mustermann Holzbau"></div>
+          </div>
+          <div class="field"><label for="f-kontakt">Telefon oder E-Mail</label><input id="f-kontakt" name="kontakt" required placeholder="So erreichen wir Sie"></div>
+          <div class="field"><label for="f-nachricht">Worum geht es?</label><textarea id="f-nachricht" name="nachricht" placeholder="Zum Beispiel: Wir sind eine Zimmerei mit 8 Leuten und haben noch gar keine Website."></textarea></div>
+          <div class="form-foot">
+            <p class="form-note">Wir nutzen Ihre Angaben nur, um Ihre Anfrage zu beantworten. Mehr in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+            <button class="btn magnetic" type="submit">Anfrage senden <span class="arrow" aria-hidden="true">→</span></button>
+          </div>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <p class="label">Websites für Handwerk und Mittelstand in Niederbayern</p>
+      <nav aria-label="Fußzeile">
+        <a class="label" href="#leistungen" data-scroll>Leistungen</a>
+        <a class="label" href="#ablauf" data-scroll>Ablauf</a>
+        <a class="label" href="#kontakt" data-scroll>Kontakt</a>
+        <a class="label" href="impressum.html">Impressum</a>
+        <a class="label" href="datenschutz.html">Datenschutz</a>
+      </nav>
+    </div>
+    <p class="footer-mark" data-footer-mark aria-label="A&amp;S Webwerk">A<span class="amp">&amp;</span>S Webwerk</p>
+    <div class="footer-bottom">
+      <p class="label">A&amp;S Webwerk · Jonas Apfel &amp; Michael Stoiber GbR · Deggendorf</p>
+      <p class="label">Handgemacht in Niederbayern</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
